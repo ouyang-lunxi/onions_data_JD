@@ -1,0 +1,158 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.brand-logo{
+  min-width: 265px;
+  height: 64px;
+}
+
+.onions-logo{
+  height: 64px;
+  float: left;
+}
+
+.onions-small-logo{
+  height: 32px;
+  float: left;
+}
+
+.onions-logo-text{
+  height: 64px;
+  float: left;
+  margin-left: 10px;
+}
+
+.onions-small-logo-title{
+  height:32px;
+  float: left;
+  margin-left: 5px;
+}
+
+.onions-small-logo-text{
+  float: none;
+}
+
+.onions-logo-text p{
+  font-size: 20px;
+}
+
+.right li a{
+  font-size: 20px;
+}
+
+.parallax-container {
+  min-height: 600px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.row{
+  margin-top: 20px;
+  padding: 40px,0;
+  background-color: #f5f2f0;
+}
+
+.input-row{
+  margin-top: 0;
+  background-color: #ffffff;
+  width: 95%;
+}
+
+.onions-row{
+  margin-top: 0;
+  height:875px;
+  min-width: 1300px;
+}
+
+.index-card{
+  height:250px;
+}
+
+.position-card{
+  height:100px;
+  width:80%;
+  min-width: 150px;
+}
+
+.position-card-title{
+  padding:30px 0;
+}
+
+.position-item{
+  height: 60px;
+  min-height: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.position-item-text{
+  padding-left: 50px;
+}
+
+.position-item-text b{
+  font-size: 17px;
+}
+
+.position-item-text p{
+  font-size: 16px;
+}
+
+.position-introduction-card{
+  min-height:300px;
+}
+
+.card-content{
+  height:95%;
+  line-height: 95%
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card a{
+  color: black;
+}
+
+.center{
+  margin-top: 35px;
+}
+
+.button-div{s
+  padding-bottom: 20px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
