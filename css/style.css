@@ -20,6 +20,10 @@ p {
   height: 64px;
 }
 
+.file-btn{
+  margin-top: -20px;
+}
+
 .onions-logo{
   height: 64px;
   float: left;
@@ -55,6 +59,7 @@ p {
 }
 
 .parallax-container {
+  margin-top:10px;
   min-height: 600px;
   line-height: 0;
   height: auto;
@@ -71,14 +76,23 @@ p {
 }
 
 .input-row{
-  margin-top: 0;
   background-color: #ffffff;
   width: 95%;
+}
+
+.index-row{
+  margin-left: 5%;
+  margin-right: 5%;
+  min-width: 900px;
 }
 
 .onions-row{
   margin-top: 0;
   height:875px;
+  min-width: 1300px;
+}
+
+.submit-row{
   min-width: 1300px;
 }
 
@@ -136,7 +150,7 @@ p {
   margin-top: 35px;
 }
 
-.button-div{s
+.button-div{
   padding-bottom: 20px;
 }
 

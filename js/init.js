@@ -9,7 +9,7 @@
     },function () {
     	$(this).removeClass("orange darken-1").addClass("white");
     });
-    $(".btn").click(function(){
+    $(".cv-btn").click(function(){
     		window.location="../submit.html";
     });
 
