@@ -5,9 +5,13 @@
     $('.parallax').parallax();
     $('select').material_select();
     $(".index-card").hover(function(){
-    	$(this).removeClass("white").addClass("orange darken-1");
+    	// $(this).removeClass("white").addClass("light-green accent-1");
+        var itemId = $(this).attr("id");
+        $("#" + itemId.replace("div","img")).attr("src","source/"+itemId.substr(itemId.length-1,1)+"_2.png");
     },function () {
-    	$(this).removeClass("orange darken-1").addClass("white");
+    	// $(this).removeClass("light-green accent-1").addClass("white");
+        var itemId = $(this).attr("id");
+        $("#" + itemId.replace("div","img")).attr("src","source/"+itemId.substr(itemId.length-1,1)+"_1.png");
     });
     $(".cv-btn").click(function(){
     		window.location="../submit.html";
